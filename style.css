@@ -3,6 +3,9 @@
   padding: 0px;
   font-family: 'Poppins', sans-serif;
 }
+ul {
+  list-style-type: none;
+}
 
 /**
 Colors
@@ -193,7 +196,9 @@ h2 {
 .row {
   margin-top: 15px;
   display: flex;
-  justify-content: space-between
+  justify-content: space-between;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .standOut-col {
@@ -248,9 +253,14 @@ h2 {
 
 /* Map */
 .map-row {
-  display: block;
   text-align: center;
-  padding-bottom: 50px;
+  width: 100%;
+  margin: auto;
+  padding: 80px 0;
+}
+
+.map-row iframe {
+  width: 1300px;
 }
 
 .map h2 {
@@ -279,10 +289,9 @@ h2 {
   padding: 10px;
   text-decoration: none;
   color: #fff;
-
 }
 
-.footer-nav ul li a{
+.footer-nav ul li a {
   text-decoration: none;
   font-family: #777;
   color: #777;
@@ -307,4 +316,64 @@ h2 {
   background-size: cover;
   text-align: center;
   color: #fff;
+}
+
+.sub-header h1 {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.contact-col-left {
+  color: #fff;
+  flex-basis: 50%;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.contact-col-left h5 {
+  color: #777;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.contact-col-left i {
+  color: #777;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+
+.contact-col-right {
+  color: #fff;
+  flex-basis: 50%;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  margin-top: 15px;
+  text-align: left;
+  text-align: center;
+}
+
+.contact-col-right input, .contact-col-right textarea {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 17px;
+  outline: none;
+  border: 1px solid #ccc;
+}
+
+#form-button {
+  color: #fff;
+  background: transparent;
+  border: 1px solid #ADD8E6;
+  font-size: 13px;
+  padding: 15px;
+  color: black;
+}
+
+#form-button:hover {
+  border: 1px solid #03a1fc;
+  background: #03a1fc;
+  transition: 1
 }
