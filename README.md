@@ -1,0 +1,3 @@
+# simple-html-css-project
+Simple HTML & CSS project to refresh basic knowledge.
+Development in progres...
