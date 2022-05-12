@@ -1,0 +1,310 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Poppins', sans-serif;
+}
+
+/**
+Colors
+Light Blue: #03a1fc
+Orange: #f44336
+LightBlue2: #ADD8E6
+
+*/
+.header {
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(24, 9, 30, 0.5), rgba(4, 9, 30, 0.5)), url(images/banner.jpeg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.logo {}
+
+.logo h2 a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.logo span {
+  color: #03a1fc;
+}
+
+nav {
+  display: flex;
+  padding: 1%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  flex: 1;
+  text-align: right;
+}
+
+.nav-links ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 8px, 12px;
+  position: relative;
+  margin-left: 5%;
+}
+
+.nav-links ul li a {
+  text-decoration: none;
+  font-size: 13px;
+  color: #fff;
+}
+
+.nav-links ul li::after {
+  content: '';
+  width: 0%;
+  height: 2px;
+  background: #03a1fc;
+  display: block;
+  margin: auto;
+  transition: 0.1s;
+}
+
+.nav-links ul li:hover::after {
+  width: 100%;
+}
+
+.text-box {
+  width: 90%;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.text-box h1 {
+  font-size: 62px;
+}
+
+.text-box p {
+  margin: 10px 0 40px;
+  color: #fff;
+}
+
+.header-btn {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #fff;
+  font-size: 13px;
+  background: transparent;
+  position: relative;
+  padding: 15px;
+}
+
+.header-btn:hover {
+  border: 1px solid #03a1fc;
+  background: #03a1fc;
+  transition: 1
+}
+
+.fa fa-times {
+  color: #fff;
+}
+
+@media(max-width: 700px) {
+  .text-box h1 {
+    font-size: 20px;
+  }
+
+  .nav-links ul li {
+    display: block;
+  }
+
+  .nav-links {
+    position: absolute;
+    background: #03a1fc;
+    height: 100vh;
+    width: 200px;
+    top: 0;
+    right: 0;
+    text-align: left;
+    z-index: 2;
+  }
+}
+
+/* Enrollment */
+.enrollment {
+  width: 80%;
+  text-align: center;
+  margin: auto;
+  padding-top: 80px;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+p {
+  color: #777;
+  font-size: 14px;
+  font-weight: 300px;
+  line-height: 22px;
+  padding: 10px;
+}
+
+.download-btn {
+  display: inline-block;
+  text-decoration: none;
+  color: #777;
+  border: 1px solid #777;
+  font-size: 16px;
+  background: transparent;
+  position: relative;
+  padding: 15px;
+  margin-top: 3%;
+}
+
+.download-btn:hover {
+  border: 1px solid #03a1fc;
+  background: #03a1fc;
+  transition: 1
+}
+
+/* Stand Out */
+h2 {
+  font-size: 36px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.standOut {
+  padding-top: 50px;
+}
+
+.standOut p {
+  text-align: center;
+}
+
+.standOut h3 {
+  text-align: center;
+}
+
+.row {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between
+}
+
+.standOut-col {
+  flex-basis: 31%;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.standOut-col img {
+  opacity: 1;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.standOut-col:hover img {
+  opacity: .5;
+}
+
+@media(max-width: 700px) {
+  .row {
+    flex-direction: column;
+  }
+}
+
+/* Institution */
+.institution {
+  padding-top: 50px;
+}
+
+.institution p {
+  text-align: center;
+}
+
+.institution-col img {
+  width: 300px;
+  opacity: 1;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.institution-col:hover img {
+  opacity: .5;
+}
+
+.institution-col {
+  flex-basis: 31%;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+/* Map */
+.map-row {
+  display: block;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.map h2 {
+  padding-top: 50px;
+}
+
+.map p {
+  text-align: center;
+}
+
+/* Footer */
+.footer {
+  background-image: url(images/footer.png);
+  text-align: center;
+}
+
+.footer-col {
+  color: #fff;
+  flex-basis: 31%;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  margin-top: 15px;
+}
+
+#foter-social {
+  padding: 10px;
+  text-decoration: none;
+  color: #fff;
+
+}
+
+.footer-nav ul li a{
+  text-decoration: none;
+  font-family: #777;
+  color: #777;
+}
+
+.copyright {
+  width: 100%;
+  text-align: left;
+  color: #fff;
+}
+
+.copyright small {
+  color: #777;
+}
+
+/* Contact Page */
+.sub-header {
+  height: 35vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(24, 9, 30, 0.5), rgba(4, 9, 30, 0.5)), url(images/sub-header.png);
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+}
