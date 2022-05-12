@@ -3,6 +3,7 @@
   padding: 0px;
   font-family: 'Poppins', sans-serif;
 }
+
 ul {
   list-style-type: none;
 }
@@ -344,7 +345,6 @@ h2 {
   font-size: 16px;
 }
 
-
 .contact-col-right {
   color: #fff;
   flex-basis: 50%;
@@ -376,4 +376,67 @@ h2 {
   border: 1px solid #03a1fc;
   background: #03a1fc;
   transition: 1
+}
+
+/* About Page */
+.about-us{
+  width: 80%;
+  margin: auto;
+  padding-top 80px;
+  padding-bottom: 50px;
+}
+.about-us p{
+  padding: 0px;
+  margin: 0px;
+}
+
+.about-us-2 p{
+  padding: 0px;
+  margin: 0px;
+}
+
+.about-us-3 p{
+  padding: 0px;
+  margin: 0px;
+}
+
+.about-col{
+  flex-basis: 48%;
+  padding: 30px 2px;
+}
+
+.about-col img{
+  width: 100%;
+}
+
+.about-us-2{
+  width: 80%;
+  margin: auto;
+  padding-top 80px;
+  padding-bottom: 50px;
+}
+.about-2-col{
+  flex-basis: 48%;
+  padding: 30px 2px;
+}
+
+.about-2-col img{
+  width: 100%;
+
+}
+
+.about-us-3{
+  width: 80%;
+  margin: auto;
+  padding-top 80px;
+  padding-bottom: 50px;
+}
+.about-3-col{
+  flex-basis: 48%;
+  padding: 30px 2px;
+}
+
+.about-3-col img{
+  width: 100%;
+
 }
