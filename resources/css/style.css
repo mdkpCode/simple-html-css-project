@@ -524,3 +524,26 @@ h2 {
   outline: none;
   border: 1px solid #ccc;
 }
+
+/* ----------- Teachers Content------- */
+.teachers-text p {
+padding: 25px;
+text-align: center;
+}
+
+.teachers-col {
+  flex-basis: 31%;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.teachers-col h3 {
+  text-align: center;
+}
+
+.teachers img {
+  height: 350px;
+  width: 250px;
+  margin: auto;
+}
